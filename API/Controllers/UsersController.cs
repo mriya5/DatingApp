@@ -22,7 +22,7 @@ namespace API.Controllers
         private readonly IMapper _mapper;
               public UsersController(IUserRepository userRepository, IMapper mapper)
              {
-            _mapper = mapper;
+                _mapper = mapper;
                 _userRepository = userRepository; 
              }
              
